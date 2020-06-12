@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lato&family=Quicksand&display=swap'); 
+
+.main-screen-content {
+    width: calc(80% - 15px);
+    margin-left: calc(20% + 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-screen-centerContent {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-screen-content > p {
+    font-family: 'Lato' ,sans-serif;
+    font-size: 3.2vh;
+    text-align: center;
+}
+
+.main-screen-content > h1 {
+    font-family: 'Jost' ,sans-serif;
+    width: 100%;
+    font-size: 7vh;
+    text-align: center;
+}
+
+
+.content-page-content {
+    width: calc(80% - 15px);
+    margin-left: calc(20% + 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.document {
+    width: calc(80% - 15px);
+    height: 100vh;
+    margin-left: calc(20% + 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.document > * {
+    width: 90%;
+    height : 90vh;
+    border: none;
+    zoom: 60;
+}

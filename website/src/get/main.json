@@ -1,0 +1,11 @@
+{
+    "page-type": "landing",
+    "style": "main-screen-",
+    "title": "Kody Bloodworth",
+    "positions": [
+        "Software Engineer",
+        "Full Stack Developer",
+        "Student Researcher"
+    ],
+    "media": "./media/glasses.svg"
+}
