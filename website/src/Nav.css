@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap');
+
+nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: white;
+    border-right: lightgray 1px solid;
+    display: grid;
+    width: 20%;
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.navBarElem {
+    background: transparent;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: background-color .9s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navBarElem > p {
+    font-family:'Quicksand', sans-serif;
+    font-size: 3vh;
+    flex-grow: 0.5;
+    /*transform: translateX(-100%);*/
+    transition: transform .5s;
+    transition-timing-function: ease;
+}
+
+.elemBack {
+    background-color: darkred;
+    width: 0%;
+    height: 1px;
+    transition: width .5s;
+    transition-timing-function: ease;
+}
+
+.navBarElem:hover > .elemBack{
+    width: 100%;
+}
+
+.navBarElem:hover > p{
+    transform: translateX(0%);
+}
+
+.navBarElem:hover {
+    background-color: lightgrey;
+}
+

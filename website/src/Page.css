@@ -1,0 +1,7 @@
+#pageCover {
+    position:fixed;
+    width: 0%;
+    height: 0vh;
+    z-index: 1000;
+    background-color: transparent;
+}
